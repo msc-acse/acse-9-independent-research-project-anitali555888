@@ -15,14 +15,7 @@ import numpy as np
 from scipy import interpolate
 from scipy.interpolate import interp1d
 import os
-import tools2d as tl
-
-# =============================================================================
-# #tool path
-# sys.path.append(os.path.abspath("/home/anita/hpc/fromhpc/test_2d_sim1"))
-# import tools2d as tl
-# =============================================================================
-
+from src import tools2d as tl
 
 AutomaticFile = 'Flowpast_2d_Re3900_v_0.039'
 AutomaticVTU_Number = 500
