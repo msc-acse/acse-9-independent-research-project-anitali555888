@@ -1,14 +1,26 @@
-# Code and figures here.
+# ACSE-9 Independent Research Project
 
-Update tools and figures.
+## Integration of CFD Modelling Framework IC-FERST for Industrial Application in BP:
+## Automation of pre- and post-processing using Python
 
-## Installation
+### Dongzhen Li
 
-Ref [fluiditywiki](https://github.com/FluidityProject/fluidity/wiki) .
+### Supervisor/Advisor: Asiri Obeysekara, Andre Nicolle, Chris Pain
+### Github alias: anitali555888\\
+### Email: dongzhen.li18@imperial.ac.uk}
 
-```bash
-sth here
-```
+## Installation and Requirements:
+### Requirements:
+   - Python 3.6 standard library as well as:
+        - Numpy
+        - Scipy
+        - Matplotlib
+        - Pytest
+        - Mpl_toolkits
+   - Jupyter notebook (Included in Anaconda)
+   - IPython Kernel   (Included in Anaconda)
+   
+Simply ensure that the above required libraries and software is installed, and then clone the repository locally. All data files are included.
 
 ## tools2d.py:
 
@@ -22,18 +34,17 @@ class filters:
 class plotting:
 ```
 
-## test_example.py:
+## tools3d.py:
 
-Run for testing template scripts:
+Classes of functions in this module.
 
 ```python
-#streamwise velocity along central line (U_cl), with experimental data:
+class simulation:
 
-#transverse velocity:
+class filters:
 
-#drag coe (Cp):
+class plotting:
 ```
-
 
 ## figures:
 * Streamwise velocity along the central line of flow(U_cl), time averaged 
@@ -47,14 +58,6 @@ Run for testing template scripts:
 * Drag coefficient in pressure expression (Cp)
 ![drag_coe_Cp_timeave](figures/drag_coe_Cp_timeave.png?raw=true "drag_coe_Cp_timeave")
 
-## sth here
-
-```python
-import
-```
-
-## Contributing
-sth here.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed by [MIT](https://choosealicense.com/licenses/mit/).
