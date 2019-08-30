@@ -46,18 +46,9 @@ class filters:
 class plotting:
 ```
 
-## figures:
-* Streamwise velocity along the central line of flow(U_cl), time averaged 
-![timeave_v_centralline](figures/timeave_v_centralline.png?raw=true "timeave_v_centralline")
-* U_cl with some experimental results
-![withexperimentaldata](figures/withexperimentaldata.png?raw=true "withexperimentaldata")
-* Transverse profile at 6 positions in the wake, time averaged 
-![transverse_timeave_allin1](figures/transverse_timeave_allin1.png?raw=true "transverse_timeave_allin1")
+## Example figures:
 
-![transverse_timeave_all](figures/transverse_timeave_all.png?raw=true "transverse_timeave_all")
-* Drag coefficient in pressure expression (Cp)
-![drag_coe_Cp_timeave](figures/drag_coe_Cp_timeave.png?raw=true "drag_coe_Cp_timeave")
-
+In the pic folder.
 
 ## License
 This project is licensed by [MIT](https://choosealicense.com/licenses/mit/).
